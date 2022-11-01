@@ -1,0 +1,372 @@
+.detailArea .detail_img {
+  background-color: #f3f2ee;
+  padding: 45px 0;
+}
+.detailArea .detail_img div div:first-child {
+  margin-bottom: 30px;
+}
+.detailArea .detail_img div div:first-child div a {
+  font-size: 15px;
+  color: #111111;
+  display: inline-block;
+  padding-right: 15px;
+  background: url("../images/ico_arrow.png") no-repeat right 2px;
+}
+.detailArea .detail_img div div:first-child div a:last-of-type {
+  margin-left: 4px;
+}
+.detailArea .detail_img div div:first-child div span {
+  font-size: 15px;
+  color: #b7b7b7;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 4px;
+}
+.detailArea .detail_img div div:last-child div:first-child ul li {
+  margin-bottom: 15px;
+}
+.detailArea .detail_img div div:last-child div:last-child {
+  text-align: center;
+}
+/* detail_img fin */
+
+.detailArea .detail_content {
+  padding: 100px 0;
+}
+.detailArea .detail_content > div > div:first-child > div {
+  text-align: center;
+}
+.detailArea .detail_content > div > div:first-child > div h3 {
+  font-size: 24px;
+  color: #111111;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.detailArea .detail_content > div > div:first-child > div ol {
+  margin-bottom: 25px;
+}
+.detailArea .detail_content > div > div:first-child > div ol li {
+  display: inline-block;
+}
+.detailArea .detail_content > div > div:first-child > div ol li i {
+  font-size: 12px;
+}
+.detailArea .detail_content > div > div:first-child > div ol li i.fas {
+  color: #f7941d;
+}
+.detailArea .detail_content > div > div:first-child > div ol li i.far {
+  color: #b7b7b7;
+}
+.detailArea .detail_content > div > div:first-child > div > p {
+  margin-bottom: 20px;
+}
+.detailArea .detail_content > div > div:first-child > div > p span {
+  color: #0d0d0d;
+  font-weight: 700;
+  margin-bottom: 16px;
+  font-size: 30px;
+}
+.detailArea .detail_content > div > div:first-child > div > p del {
+  color: #b7b7b7;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.detailArea .detail_content > div > div:first-child > div > p:last-of-type {
+  color: #3d3d3d;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.detailArea .detail_content > div > div:first-child > div .detail_size {
+  width: 45%;
+}
+.detailArea .detail_content > div > div:first-child > div .detail_size,
+.detailArea .detail_content > div > div:first-child > div .detail_color {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.detailArea .detail_content > div > div:first-child > div fieldset h4 {
+  color: #111;
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.detailArea
+  .detail_content
+  > div
+  > div:first-child
+  > div
+  fieldset
+  input[type="radio"] {
+  display: none;
+}
+.detailArea .detail_content > div > div:first-child > div .detail_size label {
+  color: #111;
+  font-size: 15px;
+  font-weight: 700;
+  display: inline-block;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 4px 4%;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+.detailArea
+  .detail_content
+  > div
+  > div:first-child
+  > div
+  .detail_size
+  input[type="radio"]:checked
+  + label {
+  border-color: #111;
+}
+.detailArea
+  .detail_content
+  > div
+  > div:first-child
+  > div
+  .detail_color
+  label[for="c_1"] {
+  background-color: #0b090c;
+}
+.detailArea
+  .detail_content
+  > div
+  > div:first-child
+  > div
+  .detail_color
+  label[for="c_2"] {
+  background-color: #20315f;
+}
+.detailArea
+  .detail_content
+  > div
+  > div:first-child
+  > div
+  .detail_color
+  label[for="c_3"] {
+  background-color: #f1af4d;
+}
+.detailArea
+  .detail_content
+  > div
+  > div:first-child
+  > div
+  .detail_color
+  label[for="c_4"] {
+  background-color: #ffffff;
+}
+.detailArea .detail_content > div > div:first-child > div .detail_color label {
+  line-height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+  display: inline-block;
+  cursor: pointer;
+  text-indent: -9999px;
+  position: relative;
+  opacity: 0.75;
+  transition: opacity 0.3s;
+}
+.detailArea
+  .detail_content
+  > div
+  > div:first-child
+  > div
+  .detail_color
+  input:checked
+  + label {
+  opacity: 1;
+}
+.detailArea .detail_content > div > div:first-child > div .detail_addcart {
+  margin-bottom: 30px;
+}
+.detailArea .detail_content > div > div:first-child > div .detail_addcart div {
+  position: relative;
+  display: inline-block;
+}
+.detailArea
+  .detail_content
+  > div
+  > div:first-child
+  > div
+  .detail_addcart
+  div
+  input {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  padding-right: 25px;
+}
+.detailArea
+  .detail_content
+  > div
+  > div:first-child
+  > div
+  .detail_addcart
+  div
+  i {
+  position: absolute;
+  font-size: 25px;
+  right: 5%;
+  cursor: pointer;
+}
+.detailArea
+  .detail_content
+  > div
+  > div:first-child
+  > div
+  .detail_addcart
+  div
+  i.fa-angle-up {
+  top: 0;
+}
+.detailArea
+  .detail_content
+  > div
+  > div:first-child
+  > div
+  .detail_addcart
+  div
+  i.fa-angle-down {
+  top: 40%;
+}
+.detailArea .detail_content > div > div:first-child > div .detail_addcart a {
+  margin-left: 5%;
+}
+.detailArea .detail_content > div > div:first-child > div .detail_payment p {
+  color: #111111;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 26px;
+  background-color: #fff;
+}
+.detailArea .detail_content > div > div:first-child > div > div:last-of-type {
+  padding: 50px 0 65px;
+}
+.detailArea
+  .detail_content
+  > div
+  > div:first-child
+  > div
+  > div:last-of-type
+  > p
+  span {
+  font-weight: 400;
+  color: #b7b7b7;
+  font-size: 15px;
+  line-height: 30px;
+}
+.detailArea .detail_content > div > div > div > div:last-of-type > p {
+  font-size: 15px;
+  color: #111111;
+  font-weight: 700;
+  line-height: 30px;
+}
+.detailArea .detail_content > div > .detail_tab ul {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.detailArea .detail_content > div > .detail_tab ul li {
+  display: inline-block;
+}
+.detailArea .detail_content > div > .detail_tab ul li:not(:first-child) {
+  margin-left: 5%;
+}
+.detailArea .detail_content > div > .detail_tab ul li a {
+  display: block;
+  font-size: 20px;
+  color: #b7b7b7;
+  font-weight: 700;
+  padding: 10px 0;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s;
+}
+.detailArea .detail_content > div > .detail_tab ul li.active a {
+  border-bottom: 2px solid #e53637;
+}
+.detailArea .detail_content > div > .detail_tab .tabContents {
+  text-align: left;
+}
+.detailArea .detail_content > div > .detail_tab .tabContents h4 {
+  color: #111;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.detailArea .detail_content > div > .detail_tab .tabContents p {
+  font-size: 15px;
+  color: #3d3d3d;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.detailArea .detail_content > div > .detail_tab .tabContents #tabContent1 > p {
+  color: #111;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+.detailArea .detail_content > div > .detail_tab .tabContents #tabContent2 {
+  display: none;
+}
+/* detailArea fin */
+
+.relatedArea {
+  padding-bottom: 100px;
+}
+.relatedArea > div > div:first-child div h2 {
+  color: #111;
+  font-weight: 700;
+  margin-bottom: 45px;
+  text-align: center;
+  font-size: 30px;
+  text-align: center;
+}
+.relatedArea > div > div:last-child > div:nth-child(1) figure {
+  background-image: url("../images/product-1.jpg");
+}
+.relatedArea > div > div:last-child > div:nth-child(2) figure {
+  background-image: url("../images/product-2.jpg");
+}
+.relatedArea > div > div:last-child > div:nth-child(3) figure {
+  background-image: url("../images/product-3.jpg");
+}
+.relatedArea > div > div:last-child > div:nth-child(4) figure {
+  background-image: url("../images/product-4.jpg");
+}
+/* relatedArea fin */
+
+@media screen and (min-width: 768px) {
+  .detailArea .detail_img div div:last-child div:first-child ul li {
+    display: block;
+  }
+  .detailArea .detail_img div div:last-child div:last-child {
+    height: 593px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .detailArea .detail_img div div:last-child div:first-child ul {
+    text-align: center;
+  }
+  .detailArea .detail_img div div:last-child div:first-child ul li {
+    display: inline-block;
+  }
+  .detailArea .detail_img div div:last-child div:last-child div img {
+    width: 70%;
+  }
+  .detailArea .detail_img div div:last-child div:last-child {
+    height: 453px;
+  }
+}

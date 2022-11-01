@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <title>portfolio4 - e-Commerce</title>
+    <!-- jquery cdn -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- bootstrap -->
+    <script src="dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <!-- jquery ui -->
+    <link rel="stylesheet" href="dist/css/jquery-ui.css" />
+    <script src="dist/js/jquery-ui.js"></script>
+
+    <link rel="stylesheet" href="style/import.css" />
+    <script src="src/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="top_nav">
+        <div class="container">
+          <div class="row justify-content-end">
+            <ul>
+              <li>
+                <a href="">SIGN IN</a>
+              </li>
+              <li>
+                <a href="">FAQS</a>
+              </li>
+              <li>
+                <span>
+                  <select class="lang_select">
+                    <option>USD</option>
+                    <option>EUR</option>
+                    <option>KOR</option>
+                  </select>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main_nav container">
+        <div class="row">
+          <div class="col-md-3">
+            <h1>
+              <a href="index.html" class="home"
+                ><img src="images/logo.png" alt="logo"
+              /></a>
+            </h1>
+            <div class="mnav_btn">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="shop.html">Shop</a></li>
+              <li>
+                <a href="" class="collection">Collection</a>
+                <ol>
+                  <li><a href="">Men's</a></li>
+                  <li><a href="">Woman's</a></li>
+                  <li><a href="">kid's</a></li>
+                </ol>
+              </li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>
+                <a href=""><img src="images/ico_search.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="images/ico_heart.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="shop_cart.html" class="cart"
+                  ><img src="images/ico_cart.png" alt="" /><span>Cart</span
+                  ><span class="cartCount">0</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mnav">
+        <div>
+          <div class="mnav_top">
+            <ul>
+              <li>
+                <a href="">SIGN IN</a>
+              </li>
+              <li>
+                <a href="">FAQS</a>
+              </li>
+              <li>
+                <span>
+                  <select class="lang_select">
+                    <option>USD</option>
+                    <option>EUR</option>
+                    <option>KOR</option>
+                  </select>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="mnav_ico">
+            <ul>
+              <li>
+                <a href=""><img src="images/ico_search.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="images/ico_heart.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="shop_cart.html" class="cart"
+                  ><img src="images/ico_cart.png" alt="" /><span>Cart</span
+                  ><span>0</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="mnav_menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li>
+                <a href="" class="collection">Collection</a>
+                <ol>
+                  <li><a href="">Men's</a></li>
+                  <li><a href="">Woman's</a></li>
+                  <li><a href="">kid's</a></li>
+                </ol>
+              </li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header fin -->
+
+    <section class="detailArea">
+      <h2 class="hidden">detailArea title</h2>
+      <div class="detail_img">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <a href="index.html" class="home">Home</a>
+              <a href="shop.html" class="shop">Shop</a>
+              <span>Product Details</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-3">
+              <ul class="smallImg">
+                <li>
+                  <a href=""
+                    ><img
+                      src="images/thumb-1.png"
+                      data-target="images/product-big-1.png"
+                      alt="thumb1"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img
+                      src="images/thumb-2.png"
+                      data-target="images/product-big-2.png"
+                      alt="thumb2"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img
+                      src="images/thumb-3.png"
+                      data-target="images/product-big-3.png"
+                      alt="thumb3"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img
+                      src="images/thumb-4.png"
+                      data-target="images/product-big-4.png"
+                      alt="thumb4"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 col-md-9">
+              <div>
+                <img
+                  class="bigImg"
+                  src="images/product-big-1.png"
+                  alt="thumb1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="detail_content">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h3>Diagonal Textured Shirt</h3>
+              <ol>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+              </ol>
+              <p><span>$60.09</span> <del>70.00</del></p>
+              <p class="product_desc">
+                Coat with quilted lining and an adjustable hood. Featuring long
+                sleeves with adjustable cuff tabs, adjustable asymmetric hem
+                with elastic side tabs and a front zip fastening with placket.
+              </p>
+              <fieldset class="detail_size">
+                <h4>Size :</h4>
+                <input type="radio" name="btn_size" id="s_small" />
+                <label for="s_small">S</label>
+                <input type="radio" name="btn_size" id="s_medium" />
+                <label for="s_medium">M</label>
+                <input type="radio" name="btn_size" id="s_large" />
+                <label for="s_large">L</label>
+                <input type="radio" name="btn_size" id="s_xlarge" />
+                <label for="s_xlarge">XL</label>
+              </fieldset>
+              <fieldset class="detail_color">
+                <h4>Color :</h4>
+                <input type="radio" name="btn_color" id="c_1" />
+                <label for="c_1">S</label>
+                <input type="radio" name="btn_color" id="c_2" />
+                <label for="c_2">M</label>
+                <input type="radio" name="btn_color" id="c_3" />
+                <label for="c_3">L</label>
+                <input type="radio" name="btn_color" id="c_4" />
+                <label for="c_4">XL</label>
+              </fieldset>
+              <fieldset class="detail_addcart">
+                <div class="quantity">
+                  <input type="text" value="1" readonly />
+                  <i class="fas fa-angle-up plus"></i>
+                  <i class="fas fa-angle-down minus"></i>
+                </div>
+                <a href="" class="btn btn-primary">ADD TO CARD</a>
+              </fieldset>
+              <div class="detail_payment">
+                <p>Guaranteed Safe Checkout</p>
+                <img src="images/details-payment.png" alt="detailPayment" />
+              </div>
+              <div>
+                <p><span>SKU: </span>3812912</p>
+                <p><span>Categories: </span>Clothes</p>
+                <p><span>Tag: </span>Clothes, Skin, Body</p>
+              </div>
+            </div>
+          </div>
+          <div class="detail_tab row">
+            <div class="col-12">
+              <ul class="tabMenu">
+                <li class="active" data-tabNumb="tabContent1">
+                  <a href="">Description</a>
+                </li>
+                <li data-tabNumb="tabContent2">
+                  <a href="">Additional Informaiton</a>
+                </li>
+              </ul>
+              <div class="tabContents">
+                <div id="tabContent1">
+                  <p>
+                    Nam tempus turpis at metus scelerisque placerat nulla
+                    deumantos solicitud felis. Pellentesque diam dolor,
+                    elementum etos lobortis des mollis ut risus. Sedcus faucibus
+                    an sullamcorper mattis drostique des commodo pharetras
+                    loremos.
+                  </p>
+                  <div>
+                    <h4>Products Infomation</h4>
+                    <p>
+                      A Pocket PC is a handheld computer, which features many of
+                      the same capabilities as a modern PC. These handy little
+                      devices allow individuals to retrieve and store e-mail
+                      messages, create a contact file, coordinate appointments,
+                      surf the internet, exchange text messages and more. Every
+                      product that is labeled as a Pocket PC must be accompanied
+                      with specific software to operate the unit and must
+                      feature a touchscreen and touchpad.
+                    </p>
+                    <p>
+                      As is the case with any new technology product, the cost
+                      of a Pocket PC was substantial during it’s early release.
+                      For approximately $700.00, consumers could purchase one of
+                      top-of-the-line Pocket PCs in 2003. These days, customers
+                      are finding that prices have become much more reasonable
+                      now that the newness is wearing off. For approximately
+                      $350.00, a new Pocket PC can now be purchased.
+                    </p>
+                  </div>
+                  <div>
+                    <h4>Material used</h4>
+                    <p>
+                      Polyester is deemed lower quality due to its none natural
+                      quality’s. Made from synthetic materials, not natural like
+                      wool. Polyester suits become creased easily and are known
+                      for not being breathable. Polyester suits tend to have a
+                      shine to them compared to wool and cotton suits, this can
+                      make the suit look cheap. The texture of velvet is
+                      luxurious and breathable. Velvet is a great choice for
+                      dinner party jacket and can be worn all year round.
+                    </p>
+                  </div>
+                </div>
+                <div id="tabContent2">
+                  <div>
+                    <h4>Products Infomation</h4>
+                    <p>
+                      A Pocket PC is a handheld computer, which features many of
+                      the same capabilities as a modern PC. These handy little
+                      devices allow individuals to retrieve and store e-mail
+                      messages, create a contact file, coordinate appointments,
+                      surf the internet, exchange text messages and more. Every
+                      product that is labeled as a Pocket PC must be accompanied
+                      with specific software to operate the unit and must
+                      feature a touchscreen and touchpad.
+                    </p>
+                    <p>
+                      As is the case with any new technology product, the cost
+                      of a Pocket PC was substantial during it’s early release.
+                      For approximately $700.00, consumers could purchase one of
+                      top-of-the-line Pocket PCs in 2003. These days, customers
+                      are finding that prices have become much more reasonable
+                      now that the newness is wearing off. For approximately
+                      $350.00, a new Pocket PC can now be purchased.
+                    </p>
+                  </div>
+                  <h4>Material used</h4>
+                  <p>
+                    Polyester is deemed lower quality due to its none natural
+                    quality’s. Made from synthetic materials, not natural like
+                    wool. Polyester suits become creased easily and are known
+                    for not being breathable. Polyester suits tend to have a
+                    shine to them compared to wool and cotton suits, this can
+                    make the suit look cheap. The texture of velvet is luxurious
+                    and breathable. Velvet is a great choice for dinner party
+                    jacket and can be worn all year round.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- detailArea fin -->
+
+    <section class="relatedArea">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Related Product</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="product col-lg-3 col-md-6" id="product_01">
+            <figure>
+              <span class="new">NEW</span>
+              <ul>
+                <li>
+                  <a href="" class="wish"
+                    ><img src="images/ico_heart.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="shop_cart.html" class="cart"
+                    ><img src="images/ico_cart.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="shop_detail.html" class="detail"
+                    ><img src="images/ico_search.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+              <figcaption>
+                <h3>
+                  Piqué Biker Jacket
+                  <span class="addCart">+ Add To Cart</span>
+                </h3>
+                <ol>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ol>
+                <p>$67.24</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="product col-lg-3 col-md-6" id="product_02">
+            <figure>
+              <span class="new">NEW</span>
+              <ul>
+                <li>
+                  <a href="" class="wish"
+                    ><img src="images/ico_heart.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="shop_cart.html" class="cart"
+                    ><img src="images/ico_cart.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="shop_detail.html" class="detail"
+                    ><img src="images/ico_search.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+              <figcaption>
+                <h3>
+                  Diagonal Textured Shirt
+                  <span class="addCart">+ Add To Cart</span>
+                </h3>
+                <ol>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                </ol>
+                <p>$60.09</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="product col-lg-3 col-md-6" id="product_03">
+            <figure>
+              <ul>
+                <li>
+                  <a href="" class="wish"
+                    ><img src="images/ico_heart.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="shop_cart.html" class="cart"
+                    ><img src="images/ico_cart.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="shop_detail.html" class="detail"
+                    ><img src="images/ico_search.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+              <figcaption>
+                <h3>
+                  Piqué Biker Jacket
+                  <span class="addCart">+ Add To Cart</span>
+                </h3>
+                <ol>
+                  <li><i class="far fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                </ol>
+                <p>$67.24</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="product col-lg-3 col-md-6" id="product_04">
+            <figure>
+              <span class="new">NEW</span>
+              <ul>
+                <li>
+                  <a href="" class="wish"
+                    ><img src="images/ico_heart.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="shop_cart.html" class="cart"
+                    ><img src="images/ico_cart.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="shop_detail.html" class="detail"
+                    ><img src="images/ico_search.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+              <figcaption>
+                <h3>
+                  Diagonal Textured Shirt
+                  <span class="addCart">+ Add To Cart</span>
+                </h3>
+                <ol>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                </ol>
+                <p>$60.09</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- relatiedArea fin -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <h2><img src="images/footer-logo.png" alt="foot_logo" /></h2>
+            <p>
+              The customer is at the heart of our unique business model, which
+              includes design.
+            </p>
+            <a href=""><img src="images/payment.png" alt="payment" /></a>
+          </div>
+          <div class="offset-lg-1 col-lg-2 offset-md-1 col-md-3 col-sm-6">
+            <h2>SHOPPING</h2>
+            <ul>
+              <li><a href="">Clothing Store</a></li>
+              <li><a href="">Trending Shoes</a></li>
+              <li><a href="">Accessories</a></li>
+              <li><a href="">Sale</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <h2>SHOPPING</h2>
+            <ul>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Payment Methods</a></li>
+              <li><a href="">Delivery</a></li>
+              <li><a href="">Return & Exchanges</a></li>
+            </ul>
+          </div>
+          <div class="offset-lg-1 col-lg-3 col-md-4 col-sm-6">
+            <h2>NEWSLETTER</h2>
+            <p>
+              Be the first to know about new arrivals, look books, sales &
+              promos!
+            </p>
+            <form>
+              <input type="email" name="userEmail" placeholder="Your email" />
+              <input type="submit" value="submit" />
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              Copyright © 20202020 All rights reserved | This template is made
+              with <i class="far fa-heart"></i> by <a href="">Colorlib</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer fin -->
+  </body>
+</html>

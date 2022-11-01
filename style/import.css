@@ -1,0 +1,16 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+/* font awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css');
+
+@import url('reset.css');
+@import url('global.css');
+
+/* page css */
+@import url('main.css');
+@import url('shop.css');
+@import url('shop_cart.css');
+@import url('shop_detail.css');
+@import url('blog.css');
+@import url('contact.css')

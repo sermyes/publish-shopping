@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <title>portfolio4 - e-Commerce</title>
+    <!-- jquery cdn -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- jquery ui -->
+    <link rel="stylesheet" href="dist/css/jquery-ui.css" />
+    <script src="dist/js/jquery-ui.js"></script>
+
+    <link rel="stylesheet" href="style/import.css" />
+    <script src="src/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="top_nav">
+        <div class="container">
+          <div class="row justify-content-end">
+            <ul>
+              <li>
+                <a href="">SIGN IN</a>
+              </li>
+              <li>
+                <a href="">FAQS</a>
+              </li>
+              <li>
+                <span>
+                  <select class="lang_select">
+                    <option>USD</option>
+                    <option>EUR</option>
+                    <option>KOR</option>
+                  </select>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main_nav container">
+        <div class="row">
+          <div class="col-md-3">
+            <h1>
+              <a href="index.html" class="home"
+                ><img src="images/logo.png" alt="logo"
+              /></a>
+            </h1>
+            <div class="mnav_btn">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="shop.html">Shop</a></li>
+              <li>
+                <a href="" class="collection">Collection</a>
+                <ol>
+                  <li><a href="">Men's</a></li>
+                  <li><a href="">Woman's</a></li>
+                  <li><a href="">kid's</a></li>
+                </ol>
+              </li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>
+                <a href=""><img src="images/ico_search.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="images/ico_heart.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="shop_cart.html" class="cart"
+                  ><img src="images/ico_cart.png" alt="" /><span>Cart</span
+                  ><span class="cartCount">0</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mnav">
+        <div>
+          <div class="mnav_top">
+            <ul>
+              <li>
+                <a href="">SIGN IN</a>
+              </li>
+              <li>
+                <a href="">FAQS</a>
+              </li>
+              <li>
+                <span>
+                  <select class="lang_select">
+                    <option>USD</option>
+                    <option>EUR</option>
+                    <option>KOR</option>
+                  </select>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="mnav_ico">
+            <ul>
+              <li>
+                <a href=""><img src="images/ico_search.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="images/ico_heart.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="shop_cart.html" class="cart"
+                  ><img src="images/ico_cart.png" alt="" /><span>Cart</span
+                  ><span>0</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="mnav_menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li>
+                <a href="" class="collection">Collection</a>
+                <ol>
+                  <li><a href="">Men's</a></li>
+                  <li><a href="">Woman's</a></li>
+                  <li><a href="">kid's</a></li>
+                </ol>
+              </li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header fin -->
+
+    <div class="shopNav">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Shop</h2>
+            <a href="index.html" class="home">Home</a>
+            <span>Shop</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="shopArea">
+      <h2 class="hidden">shop Title</h2>
+      <div class="container">
+        <div class="row">
+          <div class="shop_leftContents col-lg-3">
+            <fieldset>
+              <input type="search" placeholder="Search..." />
+            </fieldset>
+            <div>
+              <h3>Categories</h3>
+              <ul>
+                <li><a href="">Clothing</a></li>
+                <li><a href="">Bags</a></li>
+                <li><a href="">Accessories</a></li>
+                <li><a href="">Shoes</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Brand</h3>
+              <ul>
+                <li><a href="">Louis Vuitton</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Gucci</a></li>
+              </ul>
+            </div>
+            <fieldset class="price">
+              <legend>Price</legend>
+              <div class="price_select">
+                <input type="checkbox" name="btn_price" id="p_1" value="p_1" />
+                <label for="p_1">$0 ~ $30</label>
+                <input type="checkbox" name="btn_price" id="p_2" value="p_2" />
+                <label for="p_2">$30 ~ $70</label>
+                <input type="checkbox" name="btn_price" id="p_3" value="p_3" />
+                <label for="p_3">$70 ~ $120</label>
+                <input type="checkbox" name="btn_price" id="p_4" value="p_4" />
+                <label for="p_4">$120 ~ $150</label>
+                <input type="checkbox" name="btn_price" id="p_5" value="p_5" />
+                <label for="p_5">$150 ~ $200</label>
+                <input type="checkbox" name="btn_price" id="p_6" value="p_6" />
+                <label for="p_6">$200 ~ </label>
+              </div>
+            </fieldset>
+            <fieldset class="color">
+              <legend>Color</legend>
+              <input type="checkbox" name="btn_color" id="c_1" value="c_1" />
+              <label for="c_1">c1</label>
+              <input type="checkbox" name="btn_color" id="c_2" value="c_2" />
+              <label for="c_2">c2</label>
+              <input type="checkbox" name="btn_color" id="c_3" value="c_3" />
+              <label for="c_3">c3</label>
+              <input type="checkbox" name="btn_color" id="c_4" value="c_4" />
+              <label for="c_4">c4</label>
+              <input type="checkbox" name="btn_color" id="c_5" value="c_5" />
+              <label for="c_5">c5</label>
+              <input type="checkbox" name="btn_color" id="c_6" value="c_6" />
+              <label for="c_6">c6</label>
+              <input type="checkbox" name="btn_color" id="c_7" value="c_7" />
+              <label for="c_7">c7</label>
+              <input type="checkbox" name="btn_color" id="c_8" value="c_8" />
+              <label for="c_8">c8</label>
+            </fieldset>
+            <fieldset class="size">
+              <legend>Size</legend>
+              <input
+                type="checkbox"
+                name="btn_size"
+                id="s_small"
+                value="s_small"
+              />
+              <label for="s_small">S</label>
+              <input
+                type="checkbox"
+                name="btn_size"
+                id="s_medium"
+                value="s_medium"
+              />
+              <label for="s_medium">M</label>
+              <input
+                type="checkbox"
+                name="btn_size"
+                id="s_large"
+                value="s_large"
+              />
+              <label for="s_large">L</label>
+              <input
+                type="checkbox"
+                name="btn_size"
+                id="s_xlarge"
+                value="s_xlarge"
+              />
+              <label for="s_xlarge">XL</label>
+            </fieldset>
+            <div class="tag">
+              <h3>Tag</h3>
+              <ul>
+                <li><a href="">Product</a></li>
+                <li><a href="">Hats</a></li>
+                <li><a href="">Bags</a></li>
+                <li><a href="">Shoes</a></li>
+                <li><a href="">Fashion</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="shop_rightContents col-lg-9">
+            <div class="row">
+              <div class="col-6">
+                <p>Showing <span>1–12</span> of <span>126</span> results</p>
+              </div>
+              <div class="col-6">
+                <p>Sort by Price:</p>
+                <span>
+                  <select>
+                    <option>Low To High</option>
+                    <option>High To Low</option>
+                  </select>
+                </span>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="product col-lg-4 col-sm-6 s_small c_1 p_2"
+                id="product_01"
+              >
+                <figure>
+                  <span class="new">NEW</span>
+                  <ul>
+                    <li>
+                      <a href="" class="wish"
+                        ><img src="images/ico_heart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_cart.html" class="cart"
+                        ><img src="images/ico_cart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_detail.html" class="detail"
+                        ><img src="images/ico_search.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <figcaption>
+                    <h3>
+                      Piqué Biker Jacket
+                      <span class="addCart">+ Add To Cart</span>
+                    </h3>
+                    <ol>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ol>
+                    <p>$67.24</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div
+                class="product col-lg-4 col-sm-6 s_large c_2 p_2"
+                id="product_02"
+              >
+                <figure>
+                  <span class="new">NEW</span>
+                  <ul>
+                    <li>
+                      <a href="" class="wish"
+                        ><img src="images/ico_heart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_cart.html" class="cart"
+                        ><img src="images/ico_cart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_detail.html" class="detail"
+                        ><img src="images/ico_search.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <figcaption>
+                    <h3>
+                      Diagonal Textured Shirt
+                      <span class="addCart">+ Add To Cart</span>
+                    </h3>
+                    <ol>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ol>
+                    <p>$60.09</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div
+                class="product col-lg-4 col-sm-6 s_medium c_3 p_2"
+                id="product_03"
+              >
+                <figure>
+                  <ul>
+                    <li>
+                      <a href="" class="wish"
+                        ><img src="images/ico_heart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_cart.html" class="cart"
+                        ><img src="images/ico_cart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_detail.html" class="detail"
+                        ><img src="images/ico_search.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <figcaption>
+                    <h3>
+                      Piqué Biker Jacket
+                      <span class="addCart">+ Add To Cart</span>
+                    </h3>
+                    <ol>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ol>
+                    <p>$67.24</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div
+                class="product col-lg-4 col-sm-6 s_small c_5 p_2"
+                id="product_04"
+              >
+                <figure>
+                  <span class="new">NEW</span>
+                  <ul>
+                    <li>
+                      <a href="" class="wish"
+                        ><img src="images/ico_heart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_cart.html" class="cart"
+                        ><img src="images/ico_cart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_detail.html" class="detail"
+                        ><img src="images/ico_search.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <figcaption>
+                    <h3>
+                      Diagonal Textured Shirt
+                      <span class="addCart">+ Add To Cart</span>
+                    </h3>
+                    <ol>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ol>
+                    <p>$60.09</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div
+                class="product col-lg-4 col-sm-6 s_medium c_7 p_2"
+                id="product_05"
+              >
+                <figure>
+                  <ul>
+                    <li>
+                      <a href="" class="wish"
+                        ><img src="images/ico_heart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_cart.html" class="cart"
+                        ><img src="images/ico_cart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_detail.html" class="detail"
+                        ><img src="images/ico_search.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <figcaption>
+                    <h3>
+                      Lether Snikers
+                      <span class="addCart">+ Add To Cart</span>
+                    </h3>
+                    <ol>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ol>
+                    <p>$43.48</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div
+                class="product col-lg-4 col-sm-6 s_xlarge c_8 p_1"
+                id="product_06"
+              >
+                <figure>
+                  <ul>
+                    <li>
+                      <a href="" class="wish"
+                        ><img src="images/ico_heart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_cart.html" class="cart"
+                        ><img src="images/ico_cart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_detail.html" class="detail"
+                        ><img src="images/ico_search.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <figcaption>
+                    <h3>
+                      PK T-Shirt
+                      <span class="addCart">+ Add To Cart</span>
+                    </h3>
+                    <ol>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ol>
+                    <p>$26.28</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div
+                class="product col-lg-4 col-sm-6 s_xlarge c_5 p_2"
+                id="product_07"
+              >
+                <figure>
+                  <span class="sale">SALE</span>
+                  <ul>
+                    <li>
+                      <a href="" class="wish"
+                        ><img src="images/ico_heart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_cart.html" class="cart"
+                        ><img src="images/ico_cart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_detail.html" class="detail"
+                        ><img src="images/ico_search.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <figcaption>
+                    <h3>
+                      Diagonal Textured Shirt
+                      <span class="addCart">+ Add To Cart</span>
+                    </h3>
+                    <ol>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ol>
+                    <p>$60.09</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div
+                class="product col-lg-4 col-sm-6 s_large c_4 p_1"
+                id="product_08"
+              >
+                <figure>
+                  <ul>
+                    <li>
+                      <a href="" class="wish"
+                        ><img src="images/ico_heart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_cart.html" class="cart"
+                        ><img src="images/ico_cart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_detail.html" class="detail"
+                        ><img src="images/ico_search.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <figcaption>
+                    <h3>
+                      PK T-Shirt
+                      <span class="addCart">+ Add To Cart</span>
+                    </h3>
+                    <ol>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ol>
+                    <p>$26.28</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div
+                class="product col-lg-4 col-sm-6 s_small c_2 p_2"
+                id="product_09"
+              >
+                <figure>
+                  <span class="sale">SALE</span>
+                  <ul>
+                    <li>
+                      <a href="" class="wish"
+                        ><img src="images/ico_heart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_cart.html" class="cart"
+                        ><img src="images/ico_cart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_detail.html" class="detail"
+                        ><img src="images/ico_search.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <figcaption>
+                    <h3>
+                      Painting T-Shirt
+                      <span class="addCart">+ Add To Cart</span>
+                    </h3>
+                    <ol>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ol>
+                    <p>$31.37</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div
+                class="product col-lg-4 col-sm-6 s_xlarge c_6 p_1"
+                id="product_10"
+              >
+                <figure>
+                  <ul>
+                    <li>
+                      <a href="" class="wish"
+                        ><img src="images/ico_heart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_cart.html" class="cart"
+                        ><img src="images/ico_cart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_detail.html" class="detail"
+                        ><img src="images/ico_search.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <figcaption>
+                    <h3>
+                      PK T-Shirt
+                      <span class="addCart">+ Add To Cart</span>
+                    </h3>
+                    <ol>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ol>
+                    <p>$26.28</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div
+                class="product col-lg-4 col-sm-6 s_medium c_5 p_3"
+                id="product_11"
+              >
+                <figure>
+                  <ul>
+                    <li>
+                      <a href="" class="wish"
+                        ><img src="images/ico_heart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_cart.html" class="cart"
+                        ><img src="images/ico_cart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_detail.html" class="detail"
+                        ><img src="images/ico_search.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <figcaption>
+                    <h3>
+                      Basic Scarf
+                      <span class="addCart">+ Add To Cart</span>
+                    </h3>
+                    <ol>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ol>
+                    <p>$98.49</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div
+                class="product col-lg-4 col-sm-6 s_large c_8 p_3"
+                id="product_12"
+              >
+                <figure>
+                  <ul>
+                    <li>
+                      <a href="" class="wish"
+                        ><img src="images/ico_heart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_cart.html" class="cart"
+                        ><img src="images/ico_cart.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="shop_detail.html" class="detail"
+                        ><img src="images/ico_search.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <figcaption>
+                    <h3>
+                      Lether Backpack
+                      <span class="addCart">+ Add To Cart</span>
+                    </h3>
+                    <ol>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ol>
+                    <p>$99.12</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <ul>
+                  <li class="active"><a href="">1</a></li>
+                  <li><a href="">2</a></li>
+                  <li><a href="">3</a></li>
+                  <li><a href="">4</a></li>
+                  <li><a href="">5</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <h2><img src="images/footer-logo.png" alt="foot_logo" /></h2>
+            <p>
+              The customer is at the heart of our unique business model, which
+              includes design.
+            </p>
+            <a href=""><img src="images/payment.png" alt="payment" /></a>
+          </div>
+          <div class="offset-lg-1 col-lg-2 offset-md-1 col-md-3 col-sm-6">
+            <h2>SHOPPING</h2>
+            <ul>
+              <li><a href="">Clothing Store</a></li>
+              <li><a href="">Trending Shoes</a></li>
+              <li><a href="">Accessories</a></li>
+              <li><a href="">Sale</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <h2>SHOPPING</h2>
+            <ul>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Payment Methods</a></li>
+              <li><a href="">Delivery</a></li>
+              <li><a href="">Return & Exchanges</a></li>
+            </ul>
+          </div>
+          <div class="offset-lg-1 col-lg-3 col-md-4 col-sm-6">
+            <h2>NEWSLETTER</h2>
+            <p>
+              Be the first to know about new arrivals, look books, sales &
+              promos!
+            </p>
+            <form>
+              <input type="email" name="userEmail" placeholder="Your email" />
+              <input type="submit" value="submit" />
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              Copyright © 20202020 All rights reserved | This template is made
+              with <i class="far fa-heart"></i> by <a href="">Colorlib</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer fin -->
+  </body>
+</html>

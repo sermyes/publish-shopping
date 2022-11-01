@@ -1,0 +1,48 @@
+.map iframe{
+    width: 100%; height: 500px;
+}
+.contactArea{
+    padding: 100px 0;
+}
+.contactArea > div > div .address h2{
+    font-size: 48px; margin-bottom: 20px; color: #111; 
+    font-weight: 700; line-height: 46px;
+}
+.contactArea > div > div .address p,
+.contactArea > div > div .address div address,
+.contactArea > div > div .address div address a{
+    line-height: 26px; font-size: 15px; 
+    font-weight: 400; margin-bottom: 35px;
+}
+.contactArea > div > div .address p{
+    color: #707070;
+}
+.contactArea > div > div .address div h3{
+    color: #111; font-weight: 700; margin-bottom: 10px; font-size: 24px;
+}
+.contactArea > div > div .address div address,
+.contactArea > div > div .address div address a{
+    color: #3d3d3d; 
+}
+.contactArea > div > div .address div address a{
+    display: block; font-style: italic;
+}
+.contactArea > div > div .address div:first-of-type{
+    margin-bottom: 35px;
+}
+/* leftContent fin */
+
+.contactArea > div > div .message > div input,
+.contactArea > div > div .message > div textarea{
+    width: 100%; border: 1px solid #e1e1e1; padding-left: 20px; 
+    font-size: 15px; color: #b7b7b7; margin-bottom: 30px; outline: none;
+}
+.contactArea > div > div .message > div input{
+    height: 50px;
+}
+.contactArea > div > div .message > div textarea{
+    height: 150px; resize: none; padding-top: 20px;
+}
+.contactArea > div > div .message > div a{
+    width: 230px; text-align: center;
+}

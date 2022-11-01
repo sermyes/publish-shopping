@@ -1,0 +1,367 @@
+.shopNav {
+  background: #f3f2ee;
+  padding: 40px 0;
+}
+.shopNav h2 {
+  color: #111;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.shopNav a {
+  font-size: 15px;
+  color: #111111;
+  display: inline-block;
+  padding-right: 15px;
+  background: url("../images/ico_arrow.png") no-repeat right 2px;
+}
+.shopNav span {
+  font-size: 15px;
+  color: #b7b7b7;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 4px;
+}
+/* shopNav fin */
+
+.shopArea {
+  padding: 100px 0;
+}
+.shopArea > div > div > .shop_leftContents > *:not(:first-child) {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.shopArea > div > div > .shop_leftContents fieldset input[type="search"] {
+  width: 100%;
+  font-size: 15px;
+  color: #b7b7b7;
+  padding: 0 10% 0 15%;
+  border: 1px solid #e5e5e5;
+  line-height: 40px;
+  box-sizing: border-box;
+  outline: none;
+  margin-bottom: 20px;
+  background: url("../images/ico_search_gray.png") no-repeat 5% 50%;
+}
+.shopArea > div > div > .shop_leftContents div h3,
+.shopArea > div > div > .shop_leftContents fieldset legend {
+  color: #111;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.shopArea > div > div > .shop_leftContents div ul li {
+  display: block;
+}
+.shopArea > div > div > .shop_leftContents div:not(:last-of-type) ul li a {
+  color: #b7b7b7;
+  font-size: 15px;
+  line-height: 32px;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+.shopArea
+  > div
+  > div
+  > .shop_leftContents
+  div:not(:last-of-type)
+  ul
+  li
+  a:hover {
+  color: #111;
+}
+.shopArea > div > div > .shop_leftContents fieldset legend {
+  position: relative;
+  top: 25px;
+}
+.shopArea > div > div > .shop_leftContents .price h3 {
+  margin-bottom: 20px;
+}
+.shopArea > div > div > .shop_leftContents .price input[type="checkbox"] {
+  display: none;
+}
+.shopArea
+  > div
+  > div
+  > .shop_leftContents
+  .price
+  input[type="checkbox"]:checked
+  + label {
+  background-color: #111;
+  color: #fff;
+}
+.shopArea > div > div > .shop_leftContents .price .price_select {
+  display: flex;
+  flex-flow: row wrap;
+}
+.shopArea > div > div > .shop_leftContents .price .price_select label {
+  color: #111;
+  font-size: 15px;
+  font-weight: 700;
+  flex: 0 1 1;
+  padding: 6px 5%;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+.shopArea > div > div > .shop_leftContents > .color > label {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-indent: -9999px;
+  box-shadow: 1px 1px 1px 1px;
+  opacity: 0.75;
+  transition: opacity 0.3s;
+}
+.shopArea > div > div > .shop_leftContents fieldset input[type="checkbox"] {
+  display: none;
+}
+.shopArea > div > div > .shop_leftContents .color label[for="c_1"] {
+  background-color: #0b090c;
+}
+.shopArea > div > div > .shop_leftContents .color label[for="c_2"] {
+  background-color: #20315f;
+}
+.shopArea > div > div > .shop_leftContents .color label[for="c_3"] {
+  background-color: #f1af4d;
+}
+.shopArea > div > div > .shop_leftContents .color label[for="c_4"] {
+  background-color: #636068;
+}
+.shopArea > div > div > .shop_leftContents .color label[for="c_5"] {
+  background-color: #57594d;
+}
+.shopArea > div > div > .shop_leftContents .color label[for="c_6"] {
+  background-color: #e8bac4;
+}
+.shopArea > div > div > .shop_leftContents .color label[for="c_7"] {
+  background-color: #d6c1d7;
+}
+.shopArea > div > div > .shop_leftContents .color label[for="c_8"] {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.shopArea > div > div > .shop_leftContents .color input:checked + label {
+  opacity: 1;
+}
+.shopArea > div > div > .shop_leftContents .size label {
+  color: #111;
+  font-size: 15px;
+  font-weight: 700;
+  display: inline-block;
+  border: 1px solid #e5e5e5;
+  padding: 6px 10%;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+.shopArea > div > div > .shop_leftContents .size input:checked + label {
+  background-color: #111;
+  color: #fff;
+}
+.shopArea > div > div > .shop_leftContents .tag {
+  margin-bottom: 30px;
+}
+.shopArea > div > div > .shop_leftContents .tag ul li {
+  display: inline-block;
+}
+.shopArea > div > div > .shop_leftContents .tag ul li a {
+  color: #404040;
+  font-size: 13px;
+  font-weight: 700;
+  background: #f1f5f8;
+  padding: 5px 18px;
+  display: block;
+  margin-right: 6px;
+  margin-bottom: 10px;
+}
+/* left Contents fin */
+
+.shopArea > div > div > .shop_rightContents div:nth-child(1) {
+  margin-bottom: 30px;
+}
+.shopArea > div > div > .shop_rightContents div:nth-child(1) div p {
+  font-size: 15px;
+  color: #111111;
+  font-weight: 400;
+  line-height: 25px;
+}
+.shopArea > div > div > .shop_rightContents div:nth-child(1) div:last-child {
+  text-align: right;
+}
+.shopArea > div > div > .shop_rightContents div:nth-child(1) div:last-child p {
+  display: inline-block;
+}
+.shopArea > div > div > .shop_rightContents div:nth-child(1) div select {
+  font-weight: 700;
+  border: none;
+  box-shadow: none;
+  background-image: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.shopArea > div > div > .shop_rightContents div:nth-child(1) div select option {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px;
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(2)
+  > div:nth-child(1)
+  figure {
+  background-image: url("../images/product-1.jpg");
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(2)
+  > div:nth-child(2)
+  figure {
+  background-image: url("../images/product-2.jpg");
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(2)
+  > div:nth-child(3)
+  figure {
+  background-image: url("../images/product-3.jpg");
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(2)
+  > div:nth-child(4)
+  figure {
+  background-image: url("../images/product-4.jpg");
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(2)
+  > div:nth-child(5)
+  figure {
+  background-image: url("../images/product-5.jpg");
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(2)
+  > div:nth-child(6)
+  figure {
+  background-image: url("../images/product-6.jpg");
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(2)
+  > div:nth-child(7)
+  figure {
+  background-image: url("../images/product-7.jpg");
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(2)
+  > div:nth-child(8)
+  figure {
+  background-image: url("../images/product-8.jpg");
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(2)
+  > div:nth-child(9)
+  figure {
+  background-image: url("../images/product-9.jpg");
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(2)
+  > div:nth-child(10)
+  figure {
+  background-image: url("../images/product-10.jpg");
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(2)
+  > div:nth-child(11)
+  figure {
+  background-image: url("../images/product-11.jpg");
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(2)
+  > div:nth-child(12)
+  figure {
+  background-image: url("../images/product-12.jpg");
+}
+.shopArea > div > div > .shop_rightContents div:nth-child(3) div ul {
+  text-align: center;
+}
+.shopArea > div > div > .shop_rightContents div:nth-child(3) div ul li {
+  display: inline-block;
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(3)
+  div
+  ul
+  li:not(:first-child) {
+  margin-left: 2.5%;
+}
+.shopArea > div > div > .shop_rightContents div:nth-child(3) div ul li a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111111;
+  display: block;
+  height: 30px;
+  width: 30px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  line-height: 30px;
+  width: 30px;
+  transition: 0.3s;
+}
+.shopArea
+  > div
+  > div
+  > .shop_rightContents
+  div:nth-child(3)
+  div
+  ul
+  li.active
+  a {
+  border-color: #111;
+}
+/* shopArea fin */

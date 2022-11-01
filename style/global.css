@@ -1,0 +1,641 @@
+html,
+body {
+  font-family: "Nunito Sans", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+.container .row a {
+  text-decoration: none;
+}
+p {
+  color: #b7b7b7;
+  font-size: 15px;
+  color: #3d3d3d;
+  font-weight: 400;
+  line-height: 25px;
+}
+.btn-primary {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 14px 30px;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 4px;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #000;
+}
+.sub_title {
+  color: #e53637;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 28px;
+  display: block;
+}
+.btn_animate {
+  display: inline-block;
+  color: #111111;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  padding: 3px 0;
+  position: relative;
+}
+.btn_animate:hover {
+  color: #111111;
+}
+.btn_animate:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #111;
+  content: "";
+  transition: width 0.3s, color 0.3s;
+}
+.product figure {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+  position: relative;
+  padding-top: 100%;
+}
+.product figure > ul {
+  position: absolute;
+  right: -10%;
+  top: 5%;
+  opacity: 0;
+  transition: 0.3s;
+}
+.product:hover figure > ul {
+  opacity: 1;
+  right: 7%;
+}
+.product figure > ul li {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.product figure > ul li a {
+  display: block;
+  width: 25px;
+  padding: 5px 0 2px;
+  background-color: #fff;
+}
+.product figure > span {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 0 5%;
+  line-height: 22px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+.product figure > span.new {
+  color: #111;
+  background: #fff;
+}
+.product figure > span.sale {
+  color: #fff;
+  background-color: #111;
+}
+.product figure figcaption {
+  padding: 25px 0;
+}
+.product figure figcaption h3 {
+  color: #111;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  transition: 0.3s;
+  opacity: 1;
+  position: relative;
+}
+.product:hover figure figcaption h3 {
+  color: #fff;
+}
+.product figure figcaption ol {
+  margin-bottom: 5px;
+}
+.product figure figcaption ol li {
+  display: inline-block;
+}
+.product figure figcaption ol li i {
+  font-size: 12px;
+}
+.product figure figcaption ol li i.fas {
+  color: #f7941d;
+}
+.product figure figcaption ol li i.far {
+  color: #b7b7b7;
+}
+.product figure figcaption p {
+  color: #0d0d0d;
+  font-weight: 700;
+  font-size: 18px;
+}
+.product figure figcaption span.addCart {
+  position: absolute;
+  top: -200%;
+  left: 0;
+  font-size: 15px;
+  color: #e53637;
+  font-weight: 700;
+  opacity: 0;
+  transition: 0.3s;
+}
+.product:hover figure figcaption span.addCart {
+  top: 0;
+  opacity: 1;
+  cursor: pointer;
+}
+.product:hover figure figcaption span.addCart + h3 {
+  opacity: 0;
+}
+.blog figure {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+  padding-top: 75%;
+}
+.blog figure figcaption {
+  padding: 0 5%;
+}
+.blog figure figcaption div {
+  text-align: left;
+  padding: 30px 15%;
+  position: relative;
+  margin-top: -10%;
+  background-color: #fff;
+}
+.blog figure figcaption div span {
+  color: #3d3d3d;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 19px;
+  padding-left: 8%;
+  background: url(../images/ico_calendar.png) no-repeat left 2px;
+}
+.blog figure figcaption div h3 {
+  color: #0d0d0d;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.blog:hover figure figcaption div .btn_animate:after {
+  width: 30%;
+  background: #e53637;
+}
+footer {
+  background-color: #111;
+  padding-top: 140px;
+}
+footer > div > div:first-of-type > div {
+  margin-bottom: 65px;
+}
+footer > div > div:first-of-type > div h2 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+footer > div > div:first-of-type > div ul li {
+  display: block;
+}
+footer > div > div:first-of-type > div ul li a {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  color: #b7b7b7;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 36px;
+}
+footer > div > div:first-of-type > div:first-child h2 {
+  margin-bottom: 30px;
+}
+footer > div > div:first-of-type > div:first-child h2 img {
+  width: 195px;
+}
+footer > div > div:first-of-type > div:first-child p,
+footer > div > div:first-of-type > div:last-child p {
+  margin-bottom: 25px;
+  color: #b7b7b7;
+}
+footer > div > div:first-of-type > div:last-child form {
+  position: relative;
+}
+footer > div > div:first-of-type > div:last-child input[type="email"] {
+  width: 100%;
+  font-size: 15px;
+  color: #3d3d3d;
+  background: transparent;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 2px solid #ffffff;
+  outline: none;
+}
+footer > div > div:first-of-type > div:last-child input[type="submit"] {
+  color: #b7b7b7;
+  position: absolute;
+  right: 5px;
+  bottom: 15px;
+  border: none;
+  background: url("../images/ico_mail.png") no-repeat center;
+  text-indent: -9999px;
+  width: 20px;
+  height: 18px;
+}
+footer > div > div:last-of-type {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 25px 0;
+}
+footer > div > div:last-of-type div p {
+  color: #b7b7b7;
+  text-align: center;
+}
+footer > div > div:last-of-type div p > * {
+  color: #e53637;
+}
+/* all using css */
+
+@media screen and (min-width: 768px) {
+  .mnav_btn {
+    display: none;
+  }
+  header > div.mnav {
+    display: none;
+  }
+  header > div.top_nav {
+    background-color: #111;
+  }
+  header > div.top_nav ul li {
+    display: inline-block;
+    padding: 10px 0;
+  }
+  header > div.top_nav ul li a {
+    font-size: 13px;
+    color: #fff;
+    padding: 2px 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2px;
+  }
+  header > div.top_nav ul li span .lang_select {
+    border: none;
+    box-shadow: none;
+    background-image: none;
+    background-color: transparent;
+    font-size: 13px;
+    color: #fff;
+    padding: 2px 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2px;
+    outline: none;
+    cursor: pointer;
+  }
+  header > div.top_nav ul li span .lang_select option {
+    color: #111;
+  }
+  header > div.main_nav > div {
+    padding: 30px 0;
+  }
+  header > div.main_nav > div > div:nth-child(1) h1 a {
+    display: block;
+    max-width: 196px;
+  }
+  header > div.main_nav > div > div:nth-child(1) h1 a img {
+    width: 100%;
+  }
+  header > div.main_nav > div > div:nth-child(2) {
+    padding: 0;
+  }
+  header > div.main_nav > div > div:nth-child(2) ul {
+    text-align: center;
+  }
+  header > div.main_nav > div > div:nth-child(2) ul > li {
+    display: inline-block;
+  }
+  header > div.main_nav > div > div:nth-child(2) ul > li:not(:first-child) {
+    margin-left: 3.84%;
+  }
+  header > div.main_nav > div > div:nth-child(2) ul > li > a {
+    display: block;
+    font-size: 18px;
+    color: #111;
+    font-weight: 600;
+    position: relative;
+    padding: 3px 0;
+    text-decoration: none;
+  }
+  header > div.main_nav > div > div:nth-child(2) ul > li > a:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #e53637;
+    transform: scale(0);
+    transition: transform 0.5s;
+  }
+  header > div.main_nav > div > div:nth-child(2) ul > li.active > a:after,
+  header > div.main_nav > div > div:nth-child(2) ul > li:hover > a:after {
+    transform: scale(1);
+  }
+  header > div.main_nav > div > div:nth-child(2) ul > li:nth-child(3) {
+    position: relative;
+  }
+  header > div.main_nav > div > div:nth-child(2) ul > li:nth-child(3) ol {
+    position: absolute;
+    left: 0;
+    top: 56px;
+    width: 150px;
+    background: #111111;
+    text-align: left;
+    padding: 5px 0;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 100;
+  }
+  header > div.main_nav > div > div:nth-child(2) ul > li:nth-child(3):hover ol {
+    top: 22px;
+    opacity: 1;
+  }
+  header > div.main_nav > div > div:nth-child(2) ul > li:nth-child(3) ol li {
+    display: block;
+  }
+  header > div.main_nav > div > div:nth-child(2) ul > li:nth-child(3) ol li a {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    padding: 5px 20px;
+    display: block;
+  }
+  header > div.main_nav > div > div:nth-child(3) ul {
+    text-align: center;
+  }
+  header > div.main_nav > div > div:nth-child(3) ul li {
+    display: inline-block;
+    line-height: 20px;
+    padding: 5px 0;
+  }
+  header > div.main_nav > div > div:nth-child(3) ul li:not(:first-child) {
+    margin-left: 8.5%;
+  }
+  header > div.main_nav > div > div:nth-child(3) ul li a {
+    display: block;
+  }
+  header > div.main_nav > div > div:nth-child(3) ul li:last-child a {
+    font-size: 15px;
+    color: #111;
+    font-weight: 700;
+    position: relative;
+    padding-right: 60px;
+  }
+  header > div.main_nav > div > div:nth-child(3) ul li:last-child a span {
+    display: block;
+    position: absolute;
+  }
+  header
+    > div.main_nav
+    > div
+    > div:nth-child(3)
+    ul
+    li:last-child
+    a
+    span:first-of-type {
+    top: 0;
+    left: 20px;
+    padding-right: 30px;
+  }
+  header
+    > div.main_nav
+    > div
+    > div:nth-child(3)
+    ul
+    li:last-child
+    a
+    span:last-of-type {
+    font-weight: 400;
+    top: -2px;
+    right: 0;
+    width: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    background-color: #e3e8f0;
+  }
+  /* header fin */
+}
+
+@media screen and (max-width: 767px) {
+  header .main_nav div div h1 {
+    padding-right: 15%;
+    position: relative;
+  }
+  .mnav_btn {
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    top: 0;
+    z-index: 100;
+  }
+  .mnav_btn i {
+    font-size: 30px;
+  }
+  header .mnav {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+    z-index: 10;
+  }
+  header .mnav.on {
+    opacity: 1;
+    pointer-events: all;
+  }
+  header .mnav div {
+    margin-left: -100%;
+    transition: 0.5s;
+  }
+  header .mnav.on div {
+    margin-left: 0;
+  }
+  header .top_nav {
+    display: none;
+  }
+  header .main_nav > div {
+    padding: 30px 0;
+  }
+  header .main_nav > div > div:nth-child(1) h1 a {
+    display: block;
+    max-width: 196px;
+  }
+  header .main_nav > div > div:nth-child(1) h1 a img {
+    width: 100%;
+  }
+  header .main_nav > div > div:not(:first-child) {
+    display: none;
+  }
+  header .mnav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+  }
+  header .mnav > div {
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    padding: 50px 30px;
+  }
+  header .mnav > div > div.mnav_top ul {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  header .mnav > div > div.mnav_top ul li {
+    line-height: 24px;
+  }
+  header .mnav > div > div.mnav_top ul li a {
+    font-size: 13px;
+    color: #111;
+    padding: 2px 0;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 2px;
+  }
+  header .mnav > div > div.mnav_top ul li span .lang_select {
+    border: none;
+    box-shadow: none;
+    background-image: none;
+    background-color: transparent;
+    font-size: 13px;
+    color: #111;
+    padding: 2px 0;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2px;
+    outline: none;
+    cursor: pointer;
+  }
+  header .mnav > div > div.mnav_top ul li span .lang_select option {
+    color: #111;
+  }
+  header .mnav > div > div.mnav_ico {
+    margin-bottom: 30px;
+  }
+  header .mnav > div > div.mnav_ico ul {
+    text-align: center;
+  }
+  header .mnav > div > div.mnav_ico ul li {
+    display: inline-block;
+    line-height: 20px;
+    padding: 5px 0;
+  }
+  header .mnav > div > div.mnav_ico ul li:not(:first-child) {
+    margin-left: 8.5%;
+  }
+  header .mnav > div > div.mnav_ico ul li a {
+    display: block;
+  }
+  header .mnav > div > div.mnav_ico ul li:last-child a {
+    font-size: 15px;
+    color: #111;
+    font-weight: 700;
+    position: relative;
+    padding-right: 60px;
+  }
+  header .mnav > div > div.mnav_ico ul li:last-child a span {
+    display: block;
+    position: absolute;
+  }
+  header .mnav > div > div.mnav_ico ul li:last-child a span:first-of-type {
+    top: 0;
+    left: 20px;
+    padding-right: 30px;
+  }
+  header .mnav > div > div.mnav_ico ul li:last-child a span:last-of-type {
+    font-weight: 400;
+    top: -2px;
+    right: 0;
+    width: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    background-color: #e3e8f0;
+  }
+  header .mnav > div > div.mnav_menu ul li {
+    display: block;
+  }
+  header .mnav > div > div.mnav_menu ul li a {
+    display: block;
+    font-size: 13px;
+    color: #111;
+    padding: 10px 0;
+    font-weight: 600;
+    padding: 15px 7.4%;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  header .mnav > div > div.mnav_menu ul > li:nth-child(3) > a:after {
+    content: url("../images/bg_arrow.png");
+    float: right;
+    transform: rotate(-90deg);
+    transition: transform 0.5s ease-out;
+  }
+  header .mnav > div > div.mnav_menu ul > li:nth-child(3).active > a:after {
+    transform: rotate(0deg);
+  }
+  header .mnav > div > div.mnav_menu ul > li:nth-child(3) ol {
+    padding-left: 20px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  header .mnav > div > div.mnav_menu ul > li:nth-child(3) ol li a {
+    opacity: 0;
+    font-size: 0px;
+    padding: 0px 7.4%;
+    transition-duration: 0.3s;
+  }
+  header .mnav > div > div.mnav_menu ul > li:nth-child(3).active ol {
+    height: 129px;
+  }
+  header .mnav > div > div.mnav_menu ul > li:nth-child(3).active ol li a {
+    opacity: 1;
+    font-size: 13px;
+    padding: 15px 7.4%;
+    /* height , overflow */
+  }
+  /* header fin */
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  header .mnav > div > div.mnav_top ul li {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  header .mnav > div > div.mnav_top ul li:not(:first-child) {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header .mnav > div > div.mnav_top ul li {
+    display: block;
+    margin-bottom: 5px;
+  }
+}

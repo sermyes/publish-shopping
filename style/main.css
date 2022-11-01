@@ -1,0 +1,478 @@
+.slideArea .slide_btn a {
+  position: absolute;
+  top: 50%;
+  color: #000;
+  font-size: 40px;
+  transform: translateY(-50%);
+  z-index: 1;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in;
+}
+.slideArea .slide_btn a.prev {
+  left: 2%;
+}
+.slideArea .slide_btn a.next {
+  right: 2%;
+}
+.slideArea .slide_btn a.prev:hover,
+.slideArea .slide_btn a.next:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .bannerArea > div > div:nth-child(2) > div {
+    margin-top: -50px;
+  }
+  .bannerArea > div > div:nth-child(3) > div {
+    margin-top: -250px;
+  }
+  .bannerArea > div > div:nth-child(1) > div figure {
+    padding-left: 30%;
+  }
+  .bannerArea > div > div:nth-child(2) > div figure {
+    padding-right: 10%;
+  }
+  .bannerArea > div > div:nth-child(3) > div figure {
+    padding-left: 20%;
+  }
+  .instaArea > div > div > div:last-child {
+    padding: 135px 0 0 2%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .bannerArea > div > div:nth-child(1) > div figure {
+    padding-left: 30%;
+  }
+  .bannerArea > div > div:nth-child(2) > div figure {
+    padding-right: 30%;
+  }
+  .bannerArea > div > div:nth-child(3) > div figure {
+    padding-left: 30%;
+  }
+  .instaArea > div > div > div:last-child {
+    padding: 50px 0 0 2%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slideArea {
+    position: relative;
+    height: 792px;
+  }
+  .slideArea .slideContainer .slide {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    padding: 230px 5% 25px;
+    width: 100%;
+  }
+  .slideArea .slideContainer .slide1 {
+    background-image: url("../images/hero-1.jpg");
+  }
+  .slideArea .slideContainer .slide2 {
+    background-image: url("../images/hero-2.jpg");
+  }
+  .slideArea .slideContainer .slide > div > div > div > h2 {
+    color: #111;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 30px;
+  }
+  .slideArea .slideContainer .slide > div > div > div > p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 35px;
+  }
+  .slideArea .slideContainer .slide > div > div > div > a {
+    margin-bottom: 190px;
+  }
+  .slideArea .slideContainer .slide > div > div > div > ul li {
+    display: inline-block;
+  }
+  .slideArea
+    .slideContainer
+    .slide
+    > div
+    > div
+    > div
+    > ul
+    li:not(:first-child) {
+    margin-left: 10%;
+  }
+  .slideArea .slideContainer .slide > div > div > div > ul li a {
+    display: block;
+  }
+  .slideArea .slideContainer .slide > div > div > div > ul li a i {
+    color: #000;
+  }
+  /* slideArea fin */
+
+  .bannerArea {
+    padding: 100px 0;
+  }
+  .bannerArea > div > div {
+    margin-bottom: 30px;
+  }
+  .bannerArea > div > div > div {
+    position: relative;
+  }
+  .bannerArea > div > div > div figure img {
+    width: 100%;
+  }
+  .bannerArea > div > div > div figure figcaption h2 {
+    color: #111;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+  .bannerArea > div > div > div figure:hover figcaption .btn_animate:after {
+    width: 30%;
+    background: #e53637;
+  }
+  .bannerArea > div > div:not(:nth-child(2)) > div figure {
+    text-align: right;
+  }
+  .bannerArea > div > div:not(:nth-child(2)) > div figure figcaption {
+    position: absolute;
+    max-width: 300px;
+    text-align: left;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  /* bannerArea fin */
+
+  .productArea {
+    padding-bottom: 100px;
+  }
+  .productArea > div > div:first-child > div ul {
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  .productArea > div > div:first-child > div ul li {
+    display: inline-block;
+  }
+  .productArea > div > div:first-child > div ul li:not(:first-child) {
+    margin-left: 8%;
+  }
+  .productArea > div > div:first-child > div ul li a {
+    color: #b7b7b7;
+    font-size: 24px;
+    font-weight: 700;
+    display: inline-block;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+  .productArea > div > div:first-child > div ul li:hover a,
+  .productArea > div > div:first-child > div ul li.active a {
+    color: #111;
+  }
+
+  .productArea > div > div:last-of-type > div:nth-child(1) figure {
+    background-image: url("../images/product-1.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(2) figure {
+    background-image: url("../images/product-2.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(3) figure {
+    background-image: url("../images/product-3.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(4) figure {
+    background-image: url("../images/product-4.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(5) figure {
+    background-image: url("../images/product-5.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(6) figure {
+    background-image: url("../images/product-6.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(7) figure {
+    background-image: url("../images/product-7.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(8) figure {
+    background-image: url("../images/product-8.jpg");
+  }
+  .productArea .product_filter > div {
+    transform: scale(0.01);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+    visibility: hidden;
+  }
+  .productArea .product_filter > div.active {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+  /* productArea fin */
+
+  .instaArea {
+    padding-bottom: 100px;
+  }
+  .instaArea > div > div > div:first-child div div {
+    padding: 0;
+  }
+  .instaArea > div > div > div:first-child div div img {
+    width: 100%;
+  }
+  .instaArea > div > div > div:last-child h2 {
+    color: #111;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  .instaArea > div > div > div:last-child p {
+    margin-bottom: 65px;
+  }
+  .instaArea > div > div > div:last-child span {
+    color: #e53637;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  /* instaArea fin */
+
+  .newsArea {
+    padding-bottom: 100px;
+  }
+  .newsArea div div:first-child div {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .newsArea div div:first-child div h2 {
+    color: #111;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 46px;
+  }
+  .newsArea div div:last-child div:nth-child(1) figure {
+    background-image: url("../images/blog-1.jpg");
+  }
+  .newsArea div div:last-child div:nth-child(2) figure {
+    background-image: url("../images/blog-2.jpg");
+  }
+  .newsArea div div:last-child div:nth-child(3) figure {
+    background-image: url("../images/blog-3.jpg");
+  }
+  /* newArea fin */
+}
+
+@media screen and (max-width: 767px) {
+  .slideArea {
+    position: relative;
+  }
+  .slideArea .slideContainer .slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 230px 5% 25px;
+    width: 100%;
+  }
+  .slideArea .slideContainer .slide1 {
+    background-image: url("../images/hero-1.jpg");
+    display: none;
+  }
+  .slideArea .slideContainer .slide2 {
+    background-image: url("../images/hero-2.jpg");
+  }
+  .slideArea .slideContainer .slide > div > div > div > h2 {
+    color: #111;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 30px;
+  }
+  .slideArea .slideContainer .slide > div > div > div > p {
+    line-height: 28px;
+    margin-bottom: 35px;
+  }
+  .slideArea .slideContainer .slide > div > div > div > a {
+    margin-bottom: 190px;
+  }
+  .slideArea .slideContainer .slide > div > div > div > ul li {
+    display: inline-block;
+  }
+  .slideArea
+    .slideContainer
+    .slide
+    > div
+    > div
+    > div
+    > ul
+    li:not(:first-child) {
+    margin-left: 10%;
+  }
+  .slideArea .slideContainer .slide > div > div > div > ul li a {
+    display: block;
+  }
+  .slideArea .slideContainer .slide > div > div > div > ul li a i {
+    color: #000;
+  }
+
+  /* slideArea fin */
+
+  .bannerArea {
+    padding: 100px 0;
+  }
+  .bannerArea > div > div {
+    margin-bottom: 30px;
+  }
+  .bannerArea > div > div > div {
+    position: relative;
+  }
+  .bannerArea > div > div > div figure img {
+    width: 100%;
+  }
+  .bannerArea > div > div > div figure figcaption h2 {
+    color: #111;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+  .bannerArea > div > div > div figure:hover figcaption .btn_animate:after {
+    width: 30%;
+    background: #e53637;
+  }
+  .bannerArea > div > div:not(:nth-child(2)) > div figure {
+    text-align: right;
+  }
+  .bannerArea > div > div:not(:nth-child(2)) > div figure figcaption {
+    max-width: 300px;
+    text-align: left;
+  }
+  /* bannerArea fin */
+
+  .productArea {
+    padding-bottom: 100px;
+  }
+  .productArea > div > div:first-child > div ul {
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  .productArea > div > div:first-child > div ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .productArea > div > div:first-child > div ul li:not(:first-child) {
+    margin-left: 8%;
+  }
+  .productArea > div > div:first-child > div ul li a {
+    color: #b7b7b7;
+    font-size: 24px;
+    font-weight: 700;
+    display: inline-block;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+  .productArea > div > div:first-child > div > ul li:hover a,
+  .productArea > div > div:first-child > div > ul li.active a {
+    color: #111;
+  }
+
+  .productArea > div > div:last-of-type > div:nth-child(1) figure {
+    background-image: url("../images/product-1.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(2) figure {
+    background-image: url("../images/product-2.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(3) figure {
+    background-image: url("../images/product-3.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(4) figure {
+    background-image: url("../images/product-4.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(5) figure {
+    background-image: url("../images/product-5.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(6) figure {
+    background-image: url("../images/product-6.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(7) figure {
+    background-image: url("../images/product-7.jpg");
+  }
+  .productArea > div > div:last-of-type > div:nth-child(8) figure {
+    background-image: url("../images/product-8.jpg");
+  }
+  /* productArea fin */
+
+  .instaArea {
+    padding-bottom: 100px;
+  }
+  .instaArea > div > div > div:first-child {
+    margin-bottom: 20px;
+  }
+  .instaArea > div > div > div:first-child div div {
+    padding: 0;
+  }
+  .instaArea > div > div > div:first-child div div img {
+    width: 100%;
+  }
+  .instaArea > div > div > div:last-child h2 {
+    color: #111;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  .instaArea > div > div > div:last-child p {
+    margin-bottom: 65px;
+  }
+  .instaArea > div > div > div:last-child span {
+    color: #e53637;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  /* instaArea fin */
+
+  .newsArea {
+    padding-bottom: 100px;
+  }
+  .newsArea div div:first-child div {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .newsArea div div:first-child div h2 {
+    color: #111;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 46px;
+  }
+  .newsArea div div:last-child div:nth-child(1) figure {
+    background-image: url("../images/blog-1.jpg");
+  }
+  .newsArea div div:last-child div:nth-child(2) figure {
+    background-image: url("../images/blog-2.jpg");
+  }
+  .newsArea div div:last-child div:nth-child(3) figure {
+    background-image: url("../images/blog-3.jpg");
+  }
+  /* newArea fin */
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .slideArea .slideContainer .slide {
+    background-position: center;
+  }
+  .slideArea .slideContainer .slide > div > div > div > h2 {
+    font-size: 48px;
+  }
+  .slideArea .slideContainer .slide > div > div > div > p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .slideArea .slideContainer .slide1 {
+    background-position: 65% 50%;
+  }
+  .slideArea .slideContainer .slide2 {
+    background-position: 55% 50%;
+  }
+  .slideArea .slideContainer .slide > div > div > div > h2 {
+    font-size: 42px;
+  }
+  .slideArea .slideContainer .slide > div > div > div > p {
+    font-size: 14px;
+  }
+}
