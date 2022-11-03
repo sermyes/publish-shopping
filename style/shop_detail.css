@@ -10,7 +10,7 @@
   color: #111111;
   display: inline-block;
   padding-right: 15px;
-  background: url("../images/ico_arrow.png") no-repeat right 2px;
+  background: url('../assets/images/ico_arrow.png') no-repeat right 2px;
 }
 .detailArea .detail_img div div:first-child div a:last-of-type {
   margin-left: 4px;
@@ -101,7 +101,7 @@
   > div:first-child
   > div
   fieldset
-  input[type="radio"] {
+  input[type='radio'] {
   display: none;
 }
 .detailArea .detail_content > div > div:first-child > div .detail_size label {
@@ -122,7 +122,7 @@
   > div:first-child
   > div
   .detail_size
-  input[type="radio"]:checked
+  input[type='radio']:checked
   + label {
   border-color: #111;
 }
@@ -132,7 +132,7 @@
   > div:first-child
   > div
   .detail_color
-  label[for="c_1"] {
+  label[for='c_1'] {
   background-color: #0b090c;
 }
 .detailArea
@@ -141,7 +141,7 @@
   > div:first-child
   > div
   .detail_color
-  label[for="c_2"] {
+  label[for='c_2'] {
   background-color: #20315f;
 }
 .detailArea
@@ -150,7 +150,7 @@
   > div:first-child
   > div
   .detail_color
-  label[for="c_3"] {
+  label[for='c_3'] {
   background-color: #f1af4d;
 }
 .detailArea
@@ -159,7 +159,7 @@
   > div:first-child
   > div
   .detail_color
-  label[for="c_4"] {
+  label[for='c_4'] {
   background-color: #ffffff;
 }
 .detailArea .detail_content > div > div:first-child > div .detail_color label {
@@ -334,16 +334,16 @@
   text-align: center;
 }
 .relatedArea > div > div:last-child > div:nth-child(1) figure {
-  background-image: url("../images/product-1.jpg");
+  background-image: url('../assets/images/product-1.jpg');
 }
 .relatedArea > div > div:last-child > div:nth-child(2) figure {
-  background-image: url("../images/product-2.jpg");
+  background-image: url('../assets/images/product-2.jpg');
 }
 .relatedArea > div > div:last-child > div:nth-child(3) figure {
-  background-image: url("../images/product-3.jpg");
+  background-image: url('../assets/images/product-3.jpg');
 }
 .relatedArea > div > div:last-child > div:nth-child(4) figure {
-  background-image: url("../images/product-4.jpg");
+  background-image: url('../assets/images/product-4.jpg');
 }
 /* relatedArea fin */
 

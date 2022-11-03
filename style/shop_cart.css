@@ -13,7 +13,7 @@
   color: #111111;
   display: inline-block;
   padding-right: 15px;
-  background: url("../images/ico_arrow.png") no-repeat right 2px;
+  background: url('../assets/images/ico_arrow.png') no-repeat right 2px;
 }
 .cartNav a:last-of-type {
   margin-left: 4px;
@@ -141,7 +141,7 @@
   padding-top: 70px;
 }
 .cartArea > div > div > div:last-child form fieldset:after {
-  content: "";
+  content: '';
   display: block;
   visibility: hidden;
   clear: both;
@@ -156,7 +156,7 @@
   position: relative;
   top: 25px;
 }
-.cartArea > div > div > div:last-child form fieldset input[type="text"] {
+.cartArea > div > div > div:last-child form fieldset input[type='text'] {
   width: 70%;
   font-size: 14px;
   color: #b7b7b7;
@@ -165,7 +165,7 @@
   padding-left: 20px;
   box-sizing: border-box;
 }
-.cartArea > div > div > div:last-child form fieldset input[type="submit"] {
+.cartArea > div > div > div:last-child form fieldset input[type='submit'] {
   width: 30%;
   font-size: 14px;
   color: #ffffff;

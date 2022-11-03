@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   width: 100%;
   overflow-x: hidden;
 }
@@ -54,7 +54,7 @@ p {
   width: 100%;
   height: 2px;
   background: #111;
-  content: "";
+  content: '';
   transition: width 0.3s, color 0.3s;
 }
 .product figure {
@@ -182,7 +182,7 @@ p {
   font-weight: 400;
   line-height: 19px;
   padding-left: 8%;
-  background: url(../images/ico_calendar.png) no-repeat left 2px;
+  background: url(../assets/images/ico_calendar.png) no-repeat left 2px;
 }
 .blog figure figcaption div h3 {
   color: #0d0d0d;
@@ -236,7 +236,7 @@ footer > div > div:first-of-type > div:last-child p {
 footer > div > div:first-of-type > div:last-child form {
   position: relative;
 }
-footer > div > div:first-of-type > div:last-child input[type="email"] {
+footer > div > div:first-of-type > div:last-child input[type='email'] {
   width: 100%;
   font-size: 15px;
   color: #3d3d3d;
@@ -246,13 +246,13 @@ footer > div > div:first-of-type > div:last-child input[type="email"] {
   border-bottom: 2px solid #ffffff;
   outline: none;
 }
-footer > div > div:first-of-type > div:last-child input[type="submit"] {
+footer > div > div:first-of-type > div:last-child input[type='submit'] {
   color: #b7b7b7;
   position: absolute;
   right: 5px;
   bottom: 15px;
   border: none;
-  background: url("../images/ico_mail.png") no-repeat center;
+  background: url('../assets/images/ico_mail.png') no-repeat center;
   text-indent: -9999px;
   width: 20px;
   height: 18px;
@@ -342,7 +342,7 @@ footer > div > div:last-of-type div p > * {
   }
   header > div.main_nav > div > div:nth-child(2) ul > li > a:after {
     position: absolute;
-    content: "";
+    content: '';
     left: 0;
     bottom: 0;
     width: 100%;
@@ -591,7 +591,7 @@ footer > div > div:last-of-type div p > * {
     text-decoration: none;
   }
   header .mnav > div > div.mnav_menu ul > li:nth-child(3) > a:after {
-    content: url("../images/bg_arrow.png");
+    content: url('../assets/images/bg_arrow.png');
     float: right;
     transform: rotate(-90deg);
     transition: transform 0.5s ease-out;

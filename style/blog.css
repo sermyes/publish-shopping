@@ -1,40 +1,43 @@
-.blogTopArea{
-    padding: 150px 0; background: url('../images/blog-bg.jpg') no-repeat center;
+.blogTopArea {
+  padding: 150px 0;
+  background: url('../assets/images/blog-bg.jpg') no-repeat center;
 }
-.blogTopArea h2{
-    color: #ffffff; font-size: 60px; font-weight: 700;
-    text-align: center;
+.blogTopArea h2 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
 }
 /* blogTopArea fin */
 
-.blogArea{
-    padding: 100px 0;
+.blogArea {
+  padding: 100px 0;
 }
-.blogArea > div > div div:nth-child(1) figure{
-    background-image: url('../images/blog-1.jpg');
+.blogArea > div > div div:nth-child(1) figure {
+  background-image: url('../assets/images/blog-1.jpg');
 }
-.blogArea > div > div div:nth-child(2) figure{
-    background-image: url('../images/blog-2.jpg');
+.blogArea > div > div div:nth-child(2) figure {
+  background-image: url('../assets/images/blog-2.jpg');
 }
-.blogArea > div > div div:nth-child(3) figure{
-    background-image: url('../images/blog-3.jpg');
+.blogArea > div > div div:nth-child(3) figure {
+  background-image: url('../assets/images/blog-3.jpg');
 }
-.blogArea > div > div div:nth-child(4) figure{
-    background-image: url('../images/blog-4.jpg');
+.blogArea > div > div div:nth-child(4) figure {
+  background-image: url('../assets/images/blog-4.jpg');
 }
-.blogArea > div > div div:nth-child(5) figure{
-    background-image: url('../images/blog-5.jpg');
+.blogArea > div > div div:nth-child(5) figure {
+  background-image: url('../assets/images/blog-5.jpg');
 }
-.blogArea > div > div div:nth-child(6) figure{
-    background-image: url('../images/blog-6.jpg');
+.blogArea > div > div div:nth-child(6) figure {
+  background-image: url('../assets/images/blog-6.jpg');
 }
-.blogArea > div > div div:nth-child(7) figure{
-    background-image: url('../images/blog-7.jpg');
+.blogArea > div > div div:nth-child(7) figure {
+  background-image: url('../assets/images/blog-7.jpg');
 }
-.blogArea > div > div div:nth-child(8) figure{
-    background-image: url('../images/blog-8.jpg');
+.blogArea > div > div div:nth-child(8) figure {
+  background-image: url('../assets/images/blog-8.jpg');
 }
-.blogArea > div > div div:nth-child(9) figure{
-    background-image: url('../images/blog-9.jpg');
+.blogArea > div > div div:nth-child(9) figure {
+  background-image: url('../assets/images/blog-9.jpg');
 }
 /* blogArea fin */

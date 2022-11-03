@@ -69,10 +69,10 @@
     width: 100%;
   }
   .slideArea .slideContainer .slide1 {
-    background-image: url("../images/hero-1.jpg");
+    background-image: url('../assets/images/hero-1.jpg');
   }
   .slideArea .slideContainer .slide2 {
-    background-image: url("../images/hero-2.jpg");
+    background-image: url('../assets/images/hero-2.jpg');
   }
   .slideArea .slideContainer .slide > div > div > div > h2 {
     color: #111;
@@ -173,28 +173,28 @@
   }
 
   .productArea > div > div:last-of-type > div:nth-child(1) figure {
-    background-image: url("../images/product-1.jpg");
+    background-image: url('../assets/images/product-1.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(2) figure {
-    background-image: url("../images/product-2.jpg");
+    background-image: url('../assets/images/product-2.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(3) figure {
-    background-image: url("../images/product-3.jpg");
+    background-image: url('../assets/images/product-3.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(4) figure {
-    background-image: url("../images/product-4.jpg");
+    background-image: url('../assets/images/product-4.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(5) figure {
-    background-image: url("../images/product-5.jpg");
+    background-image: url('../assets/images/product-5.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(6) figure {
-    background-image: url("../images/product-6.jpg");
+    background-image: url('../assets/images/product-6.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(7) figure {
-    background-image: url("../images/product-7.jpg");
+    background-image: url('../assets/images/product-7.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(8) figure {
-    background-image: url("../images/product-8.jpg");
+    background-image: url('../assets/images/product-8.jpg');
   }
   .productArea .product_filter > div {
     transform: scale(0.01);
@@ -249,13 +249,13 @@
     line-height: 46px;
   }
   .newsArea div div:last-child div:nth-child(1) figure {
-    background-image: url("../images/blog-1.jpg");
+    background-image: url('../assets/images/blog-1.jpg');
   }
   .newsArea div div:last-child div:nth-child(2) figure {
-    background-image: url("../images/blog-2.jpg");
+    background-image: url('../assets/images/blog-2.jpg');
   }
   .newsArea div div:last-child div:nth-child(3) figure {
-    background-image: url("../images/blog-3.jpg");
+    background-image: url('../assets/images/blog-3.jpg');
   }
   /* newArea fin */
 }
@@ -271,11 +271,11 @@
     width: 100%;
   }
   .slideArea .slideContainer .slide1 {
-    background-image: url("../images/hero-1.jpg");
+    background-image: url('../assets/images/hero-1.jpg');
     display: none;
   }
   .slideArea .slideContainer .slide2 {
-    background-image: url("../images/hero-2.jpg");
+    background-image: url('../assets/images/hero-2.jpg');
   }
   .slideArea .slideContainer .slide > div > div > div > h2 {
     color: #111;
@@ -372,28 +372,28 @@
   }
 
   .productArea > div > div:last-of-type > div:nth-child(1) figure {
-    background-image: url("../images/product-1.jpg");
+    background-image: url('../assets/images/product-1.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(2) figure {
-    background-image: url("../images/product-2.jpg");
+    background-image: url('../assets/images/product-2.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(3) figure {
-    background-image: url("../images/product-3.jpg");
+    background-image: url('../assets/images/product-3.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(4) figure {
-    background-image: url("../images/product-4.jpg");
+    background-image: url('../assets/images/product-4.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(5) figure {
-    background-image: url("../images/product-5.jpg");
+    background-image: url('../assets/images/product-5.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(6) figure {
-    background-image: url("../images/product-6.jpg");
+    background-image: url('../assets/images/product-6.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(7) figure {
-    background-image: url("../images/product-7.jpg");
+    background-image: url('../assets/images/product-7.jpg');
   }
   .productArea > div > div:last-of-type > div:nth-child(8) figure {
-    background-image: url("../images/product-8.jpg");
+    background-image: url('../assets/images/product-8.jpg');
   }
   /* productArea fin */
 
@@ -439,13 +439,13 @@
     line-height: 46px;
   }
   .newsArea div div:last-child div:nth-child(1) figure {
-    background-image: url("../images/blog-1.jpg");
+    background-image: url('../assets/images/blog-1.jpg');
   }
   .newsArea div div:last-child div:nth-child(2) figure {
-    background-image: url("../images/blog-2.jpg");
+    background-image: url('../assets/images/blog-2.jpg');
   }
   .newsArea div div:last-child div:nth-child(3) figure {
-    background-image: url("../images/blog-3.jpg");
+    background-image: url('../assets/images/blog-3.jpg');
   }
   /* newArea fin */
 }
